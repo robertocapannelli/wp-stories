@@ -100,6 +100,11 @@ class Wp_Stories {
 	private function load_dependencies() {
 
 		/**
+		 * The class responsible to register the custom post type of the plugin.
+		 */
+		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-wp-stories-post-types.php';
+
+		/**
 		 * The class responsible for orchestrating the actions and filters of the
 		 * core plugin.
 		 */

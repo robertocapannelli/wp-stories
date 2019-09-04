@@ -29,7 +29,7 @@
 	 * practising this, we should strive to set a better example in our own work.
 	 */
 
-	var initDemo = function () {
+	/*var initDemo = function () {
 		var header = document.getElementById("header");
 		var skin = location.href.split('skin=')[1];
 
@@ -166,6 +166,6 @@
 		document.body.style.display = 'block';
 	};
 
-	initDemo();
+	initDemo();*/
 
 })( jQuery );
